@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .cabecalho{
+        background-color: #9d8660;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        height: 100px;
+         align-items: center;
+    }
+
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 24px;
+       
+    }
+    .cabecalho-lista li a:hover {
+        background-color:  #322e17; /* Cor de fundo ao passar o mouse */
+        color: #fff; /* Cor do texto ao passar o mouse */
+    }
+    .cabecalho-lista li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 20px; /* Bordas arredondadas */
+        color: #000000; /* Cor do texto */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .inicio-fundo {
+        background-image: url('capa\ site.jpeg');
+        background-size:cover;
+        background-position:right;
+        width: 95%;
+        height: 600px;
+        padding: 40px;
+        margin: 0 auto;}
+
+        .img-inicio {
+            position: absolute;
+            right: 0;
+            top: 18rem;
+            width:auto;
+            height: auto;
+        }
+        .container__botao{
+            background-color:#e04e23;
+            border-radius: 50px;
+            padding: 1em;
+            color:white;
+            display:block;
+            width: 155px;
+            margin:  28em 0 0em 0;
+            margin-left: 40%;
+            font-size:large;
+            
+        }
+.explicacao{
+    background-color: #322e17;
+    color: #fff;
+    padding: 40px;
+    font-size: larger;
+    padding: 2rem;
+}
+
+.destaques{
+    background-color: #322e17;
+        color: rgb(255, 255, 255);
+        display:grid;
+        text-align: center;
+         align-items:center;
+         padding: 2rem;
+       
+         
+}
+.destaques-titulo{
+    font-family:cursive;
+    text-align: center;
+}
+.opcoes--div-imagem{
+    width: 300px;
+    display:grid;
+    padding: 10px 0px;
+    grid-template-columns:260% 200%;
+   align-items:center;
+   justify-items:center;
+   
+   
+}
+.contato {
+    background-image: url('capa\ site.jpeg');
+    background-size:cover;
+    padding: 12rem;
+
+
+}
+
+.formulario {
+    background-color: #9d8660;
+    padding: 7rem;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size:x-large;
+    width: 570px;
+}
+
+.formulario button {
+    background-color: #CB6D43;
+    border:none;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+
+
+}
+
+.form-control {
+    background-color: #F1EDEF;
+    width: 390px;
+}
